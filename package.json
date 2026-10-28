@@ -1,0 +1,35 @@
+{
+  "name": "pi-speedometer",
+  "version": "0.1.0",
+  "description": "Shows model output speed (tok/s) in the Pi footer stats row.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "footer",
+    "tokens",
+    "speedometer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantanugoel/pi-speedometer.git"
+  },
+  "author": "Shantanu Goel",
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/footer.test.mjs"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "engines": {
+    "node": ">=22.6"
+  }
+}
